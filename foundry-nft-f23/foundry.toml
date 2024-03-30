@@ -1,0 +1,30 @@
+[profile.default]
+src = "src"
+out = "out"
+libs = ["lib"]
+remappings = ["@openzeppelin/contracts=lib/openzeppelin-contracts/contracts"]
+ffi = true
+fs_permissions = [
+    { access = "read", path = "./img/" },
+    { access = "read", path = "./broadcast" },
+]
+
+# See more config options https://github.com/foundry-rs/foundry/blob/master/crates/config/README.md#all-options
+
+# MY dedicated gateway
+
+# https://crimson-official-swift-813.mypinata.cloud
+
+# MY Gateway Key
+
+# 2FWTNPyLjxl-2sWW8s9AU9uUmDzmhNpCcDw95MYuI-VGQszf0r5LIb4ebtb5Ui2P
+
+# Instructions
+
+# # This is your Gateway URL. Replace the {CID} with the IPFS CID you want to retrieve, replace the {Gateway API Key} with the key you generated:
+
+# # https://crimson-official-swift-813.mypinata.cloud/{CID}?pinataGatewayToken={Gateway API Key}
+
+# # Try fetching a file through your Dedicated Gateway
+
+# # curl 'https://crimson-official-swift-813.mypinata.cloud/ipfs/QmPyCYfL5oF79cfXjbt5cyr5hAZcyNrPNV9ytvUPdk8KT9?pinataGatewayToken=2FWTNPyLjxl-2sWW8s9AU9uUmDzmhNpCcDw95MYuI-VGQszf0r5LIb4ebtb5Ui2P'
